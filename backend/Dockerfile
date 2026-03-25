@@ -19,8 +19,8 @@ COPY . /app
 # Install dependencies
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
-
-RUN php artisan key:generate
+RUN php artisan config:clear
+RUN php artisan cache:clear
 
 # Expose port
 EXPOSE 10000
