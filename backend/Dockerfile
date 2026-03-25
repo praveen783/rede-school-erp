@@ -20,6 +20,8 @@ COPY . /app
 RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
 RUN php artisan config:clear
+RUN php artisan route:clear
+RUN php artisan view:clear
 RUN php artisan cache:clear
 
 # Expose port

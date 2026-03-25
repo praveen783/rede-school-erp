@@ -15,7 +15,7 @@ use App\Http\Controllers\Api\StudentResultController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::get('/login', function () {
