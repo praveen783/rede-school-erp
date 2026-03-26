@@ -19,8 +19,8 @@ RUN php artisan route:clear
 RUN php artisan view:clear
 RUN php artisan cache:clear
 
-# ✅ Then run migrations
-RUN php artisan migrate --force
+# # ✅ Then run migrations
+# RUN php artisan migrate --force
 
 EXPOSE 10000
 
