@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <a href="page-forgot-password.html">Forgot Password?</a>
+                                <a href="/pages/forgot-password">Forgot Password?</a>
                             </div>
                         </div>
                         <div class="text-center">
@@ -66,7 +66,7 @@
                         </div>
                     </form>
                     <div class="new-account mt-3">
-                        <p>Don't have an account? <a class="text-primary" href="page-register.html">Sign up</a></p>
+                        <p>Don't have an account? <a class="text-primary" href="/pages/register">Sign up</a></p>
                     </div>
                 </div>
             </div>
