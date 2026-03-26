@@ -24,4 +24,4 @@ RUN php artisan cache:clear
 
 EXPOSE 10000
 
-CMD php -S 0.0.0.0:10000 -t public
+CMD php artisan migrate --force && php -S 0.0.0.0:10000 -t public
